@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>University of Cincinnati Chatbot</title>
+    <link rel="stylesheet" href="static/home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <section class="chatbot-section">
+      <main class="messager-inner-container">
+        <div class="msg bot-msg">
+          <div
+            class="message-image"
+            style="background-image: url(../static/uc.png)"
+          ></div>
+          <div class="message-container">
+            <div class="message-info">
+              <div class="message-info-name">UC BOT</div>
+            </div>
+            <div class="message-content">
+              Hi, welcome to University of Cincinnati ChatBot! You can ask a
+              question in the following list.
+              <br />
+              1. Does the college have a football team?
+              <br />
+              2. Does it have Computer Science Major?
+              <br />
+              3. What is the in-state tuition?
+              <br />
+              4. Does its have on campus housing?
+            </div>
+          </div>
+        </div>
+      </main>
+      <form class="chatbot-input">
+        <input type="text" class="input-message" id="textInput" placeholder="Please submit your query..."/>
+        <button type="submit" class="send-btn">Ask</button>
+      </form>
+      <div class="end-link-div">
+        <a href="endchatbox" class="end-link">End Chat</a>
+      </div>
+    </section>
+    <script src="../static/chatscript.js">
+    </script>
+  </body>
+</html>
